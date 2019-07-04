@@ -1,3 +1,5 @@
+;(function (window) {
+
 function AsmFunctionsWrapper() {
 }
 
@@ -523,3 +525,6 @@ function asmFunctions(stdlib, foreign, heapBuffer) {
     };
 }
 
+    window.KS = { AsmFunctionsWrapper };
+
+}(window));
